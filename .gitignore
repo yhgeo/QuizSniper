@@ -6,10 +6,12 @@ __pycache__/
 .Python
 env/
 venv/
+.venv/
 ENV/
 build/
-develop-eggs/
 dist/
+*.spec
+develop-eggs/
 downloads/
 eggs/
 .eggs/
@@ -30,9 +32,11 @@ wheels/
 *.swo
 *~
 
-# 项目运行产物
+# 运行产物
+logs/
 window_preview.png
 region_preview.png
+*.tmp
 
 # 本地题库与配置（仅提交示例）
 answer_helper_config.json

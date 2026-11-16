@@ -3,6 +3,30 @@
   "api_key": "YOUR_API_KEY_HERE",
   "base_url": "https://api.openai.com/v1",
   "model": "gpt-4o-mini",
+  "model_enabled": true,
   "default_background_prompt": "",
-  "model_enabled": true
+
+  "question_bank_enabled": true,
+  "bank_first": true,
+  "similarity_threshold": 0.72,
+  "substring_threshold": 0.8,
+  "min_query_length": 8,
+  "min_contains_length": 8,
+
+  "window_title": "",
+  "region_mode": "none",
+  "region": [],
+  "all_screens": true,
+
+  "ocr_scale": 2.0,
+  "ocr_binarize": false,
+  "ocr_auto_invert": true,
+
+  "request_timeout": 30,
+  "max_tokens": 256,
+  "temperature": 0.1,
+
+  "hotkey": "F8",
+  "auto_interval": 2.0,
+  "copy_to_clipboard": false
 }
